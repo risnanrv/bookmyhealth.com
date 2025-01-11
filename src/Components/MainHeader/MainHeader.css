@@ -1,0 +1,93 @@
+.header{
+    background: #0d9606;
+    height: 475px;
+    border-radius: 15px;
+    align-items: center;
+    width: 100vw;
+}
+.header-image{
+    width: 500px;
+    height: 400px;
+    margin-top: 75px;
+}
+
+.content h3{
+    color: white;
+    font-weight: 1000;
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+.appoinment-button{
+    font-weight: 900;
+    background-color: #ffffff;
+    text-align: center;
+    color: #0d9606;
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 45px;
+    border-radius: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+.content p{
+    width: 70%;
+    color: white;
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin-left: 100px; /* Center the header */
+        height: auto; /* Adjust height dynamically */
+        width: auto; /* Full width */
+        display: flex;
+        flex-direction: column; /* Stack content vertically */
+        align-items: center; /* Center-align items */
+        text-align: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .content h3 {
+        font-size: 24px; /* Adjust font size */
+        line-height: 28px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-left: 28px;
+    }
+
+    .content p {
+        width: 90%; /* Reduce width for better readability */
+        margin: 10px auto;
+        margin-left: 28px;
+        margin-top: 27px;
+    }
+
+    .header-image {
+        width: 80%; /* Make the image responsive */
+        height: auto; /* Maintain aspect ratio */
+        margin-top: 20px;
+        margin-bottom: -20px;
+        margin-left: 30px;
+    }
+
+    .appoinment-button {
+        margin-top: 15px; /* Add spacing for the button */
+        margin-left: 98px;
+    }
+}
+@media screen and (min-width:992px) {
+    .main{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 55px;
+    }
+    .content{
+        margin-top: 115px;    
+    }
+    
+}
