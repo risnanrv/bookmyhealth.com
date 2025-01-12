@@ -40,3 +40,36 @@
        
     }
 }
+.nav-options .nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .nav-options .nav-link:hover {
+    color: #0d9606; /* Existing hover effect */
+  }
+  
+  .nav-options .nav-link.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #0d9606; /* Underline color */
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+  }
+  @media screen and (max-width: 600px) {
+    .nav-options .nav-link.active::after {
+        content: "";
+        display: block;
+        width: 40%; /* Make the line width smaller to fit centered */
+        height: 2px;
+        background-color: #0d9606; /* Same color as before */
+        margin: 0 auto; /* Center the line */
+        transition: width 0.3s ease; /* Optional: Smooth animation */
+        margin-left: -10px;
+    }
+}

@@ -1,0 +1,25 @@
+.aboutus-heading{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.about-image img{
+    width: 360px;
+    margin-top: 50px;
+}
+.about-text {
+    margin-top: 70px;
+}
+.about-text p{
+    line-height: 27px;
+}
+.about-text h5{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 600px){
+    .about-image{
+        display: grid;
+  place-items: center;
+    }
+}

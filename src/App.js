@@ -1,18 +1,23 @@
 import './App.css';
-import Footer from './Components/Footer/Footer';
-import MainHeader from './Components/MainHeader/MainHeader';
-import NavSection from './Components/Navbar/NavSection';
-import SignupContainer from './Components/SignupContainer/SignupContainer';
-import TopDocters from './Components/TopDocters/TopDocters';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import Docters from './Pages/Docters';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
     <div className="App">
-    <NavSection/>
-    <MainHeader/>
-    <TopDocters/>
-    <SignupContainer/>
-    <Footer/>
+      <Router>
+        <Routes>
+          {/* Define routes here */}
+          <Route path="/bookmyhealth.com" element={<Home />} />
+          <Route path="/bookmyhealth.com/docters" element={<Docters/>} />
+          <Route path="/bookmyhealth.com/about" element={<About/>} />
+          <Route path="/bookmyhealth.com/contact" element={<Contact/>} />
+          
+        </Routes>
+      </Router>
     </div>
   );
 }
