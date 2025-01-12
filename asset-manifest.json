@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bookmyhealth.com/static/css/main.1289be75.css",
-    "main.js": "/bookmyhealth.com/static/js/main.39f6d119.js",
+    "main.css": "/bookmyhealth.com/static/css/main.5ebe2fb6.css",
+    "main.js": "/bookmyhealth.com/static/js/main.ff04ca26.js",
     "static/js/156.5663c88b.chunk.js": "/bookmyhealth.com/static/js/156.5663c88b.chunk.js",
     "static/media/contact_image.png": "/bookmyhealth.com/static/media/contact_image.20b30fe24d6647e07d16.png",
     "static/media/header_img.png": "/bookmyhealth.com/static/media/header_img.70253f4e7d8c989e6e15.png",
@@ -39,12 +39,12 @@
     "static/media/info_icon.svg": "/bookmyhealth.com/static/media/info_icon.eb8122f5420b89f424e0e8c23daf7ef3.svg",
     "static/media/menu_icon.svg": "/bookmyhealth.com/static/media/menu_icon.4db62edd8feddf138b9bddaf0b8d8034.svg",
     "static/media/arrow_icon.svg": "/bookmyhealth.com/static/media/arrow_icon.88b22fbca7642e4ce626e574f9c09e60.svg",
-    "main.1289be75.css.map": "/bookmyhealth.com/static/css/main.1289be75.css.map",
-    "main.39f6d119.js.map": "/bookmyhealth.com/static/js/main.39f6d119.js.map",
+    "main.5ebe2fb6.css.map": "/bookmyhealth.com/static/css/main.5ebe2fb6.css.map",
+    "main.ff04ca26.js.map": "/bookmyhealth.com/static/js/main.ff04ca26.js.map",
     "156.5663c88b.chunk.js.map": "/bookmyhealth.com/static/js/156.5663c88b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1289be75.css",
-    "static/js/main.39f6d119.js"
+    "static/css/main.5ebe2fb6.css",
+    "static/js/main.ff04ca26.js"
   ]
 }
