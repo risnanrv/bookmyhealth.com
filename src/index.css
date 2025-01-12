@@ -4,3 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Apply this to the body or html element */
+html, body {
+    overflow-x: hidden;
+  }
+  

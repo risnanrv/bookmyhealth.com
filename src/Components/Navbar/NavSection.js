@@ -21,8 +21,8 @@ function NavSection() {
              <Nav.Link href=''>ABOUT</Nav.Link>
              <Nav.Link href=''>CONTACT</Nav.Link>
             </Nav>
-            <Nav className=" nav-options signup-button">
-              <button className="signup-button">SignUp</button>
+            <Nav className="d-none d-md-flex  nav-options signup-button">
+              <button className=" d-none d-md-flex signup-button">SignUp</button>
             </Nav >
           </Navbar.Collapse>
         </Container>

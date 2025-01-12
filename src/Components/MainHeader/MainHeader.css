@@ -3,7 +3,7 @@
     height: 475px;
     border-radius: 15px;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 .header-image{
     width: 500px;
@@ -42,8 +42,8 @@
 @media screen and (max-width: 768px) {
     .header {
         margin-left: 100px; /* Center the header */
-        height: auto; /* Adjust height dynamically */
-        width: auto; /* Full width */
+        height: 600px; /* Adjust height dynamically */
+        width:60px; /* Full width */
         display: flex;
         flex-direction: column; /* Stack content vertically */
         align-items: center; /* Center-align items */
@@ -53,31 +53,33 @@
     }
 
     .content h3 {
-        font-size: 24px; /* Adjust font size */
-        line-height: 28px;
+        font-size: 27px; /* Adjust font size */
+        line-height: 40px;
+        display: flex;
+        align-items: center;
         margin-bottom: 10px;
         margin-top: 20px;
-        margin-left: 28px;
+        margin-left: 14px;
     }
 
     .content p {
         width: 90%; /* Reduce width for better readability */
         margin: 10px auto;
-        margin-left: 28px;
+        margin-left: 12px;
         margin-top: 27px;
     }
 
     .header-image {
         width: 80%; /* Make the image responsive */
         height: auto; /* Maintain aspect ratio */
-        margin-top: 20px;
-        margin-bottom: -20px;
-        margin-left: 30px;
+        margin-top: 26px;
+        margin-bottom: -22px;
+       
     }
 
     .appoinment-button {
         margin-top: 15px; /* Add spacing for the button */
-        margin-left: 98px;
+        margin-left:-15px;
     }
 }
 @media screen and (min-width:992px) {
