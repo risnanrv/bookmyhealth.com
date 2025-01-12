@@ -5,3 +5,38 @@
     margin-bottom: -20px;
     margin-left: 30px;
 }
+.signup-header{
+    background: #0d9606;
+    height: 475px;
+    border-radius: 15px;
+    align-items: center;
+    width: 100%;
+}
+.appoinment-button-2{
+    font-weight: 900;
+    background-color: #ffffff;
+    text-align: center;
+    color: #0d9606;
+    border: none;
+    outline: none;
+    width: 150px;
+    height: 45px;
+    border-radius: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+@media screen and (max-width:600px){
+    .signup-header{
+        height:250px;
+        margin: 20px;
+        padding: 25px;
+    }
+    .content h3{
+        font-size: 27px;
+        margin-left: 28px;
+       
+    }
+    .appoinment-button-2{
+        margin-left: 120px;
+    }
+}

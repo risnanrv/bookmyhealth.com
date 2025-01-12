@@ -29,7 +29,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-   margin-left: px;
    text-decoration: none;
    color: black;
 }
@@ -42,4 +41,15 @@
 .copyright span{
     margin-top: 20px;
    
+}
+@media screen and (max-width:600px){
+    .footer-left p{
+        width: 100%;
+
+    }
+    .company a{
+       margin-left: 1px;
+      
+    }
+    
 }

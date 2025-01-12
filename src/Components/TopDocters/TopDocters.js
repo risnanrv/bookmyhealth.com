@@ -24,8 +24,8 @@ function TopDocters() {
         <Row>
             {
                 doctors.map((doctor)=>(
-                    <Col md={3} sm={6} xs={6} key={doctor.id}>
-                         <Card style={{width:"250px",height:"350px",marginTop:"20px"}}>
+                    <Col md={3} sm={12} xs={12} key={doctor.id}>
+                         <Card className="doctor-card" style={{width:"250px",height:"350px",marginTop:"20px"}}>
         <div className="image-container" style={{background: "rgb(234 239 255)"}}>
         <Card.Img variant="top" src={doctor.imageUrl} style={{width:"267px",height:"250px",marginLeft:"-10px"}}/>
         </div>
