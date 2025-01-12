@@ -7,12 +7,12 @@ import { IoMdArrowDropright } from "react-icons/io";
 function TopDocters() {
     const doctors = [
         { id: 1, name: 'Dr. John Doe', specialty: 'Cardiologist', imageUrl: assets.doc1 },
-        { id: 2, name: 'Dr. Jane Smith', specialty: 'Dermatologist', imageUrl: assets.doc2 },
+        { id: 2, name: 'Dr. Emily Larson', specialty: 'Dermatologist', imageUrl: assets.doc2 },
         { id: 3, name: 'Dr. Alice Johnson', specialty: 'Pediatrician', imageUrl: assets.doc3 },
   { id: 4, name: 'Dr. Michael Brown', specialty: 'Orthopedic Surgeon', imageUrl: assets.doc4 },
-  { id: 5, name: 'Dr. Emily Davis', specialty: 'Neurologist', imageUrl: assets.doc5 },
+  { id: 5, name: 'Dr. Jennifer Garcia', specialty: 'Neurologist', imageUrl: assets.doc5 },
   { id: 6, name: 'Dr. David Wilson', specialty: 'Dentist', imageUrl: assets.doc6 },
-  { id: 7, name: 'Dr. Sarah Lee', specialty: 'Ophthalmologist', imageUrl: assets.doc7 },
+  { id: 7, name: 'Dr. Jennifer Garcia', specialty: 'Ophthalmologist', imageUrl: assets.doc7 },
   { id: 8, name: 'Dr. Daniel Clark', specialty: 'General Practitioner', imageUrl: assets.doc8 }
       ];
   return (

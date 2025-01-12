@@ -1,5 +1,5 @@
 import './App.css';
-import DocterCard from './Components/DocterCard';
+import Footer from './Components/Footer/Footer';
 import MainHeader from './Components/MainHeader/MainHeader';
 import NavSection from './Components/Navbar/NavSection';
 import SignupContainer from './Components/SignupContainer/SignupContainer';
@@ -12,6 +12,7 @@ function App() {
     <MainHeader/>
     <TopDocters/>
     <SignupContainer/>
+    <Footer/>
     </div>
   );
 }

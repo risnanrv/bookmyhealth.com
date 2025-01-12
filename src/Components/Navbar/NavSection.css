@@ -19,6 +19,9 @@
     margin-left: 73px;
     gap: 45px;
 }
+.nav-options .nav-link:hover {
+    color: #0d9606;  
+  }
 @media screen and (max-width:600px) {
     
     .logo-image{

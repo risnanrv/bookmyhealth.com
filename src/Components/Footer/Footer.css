@@ -1,0 +1,45 @@
+.footer-section{
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.footer-left p{
+    width: 70%;
+    margin-top: 20px;
+    line-height: 26px;
+
+}
+.company h4{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.company a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+   margin-left: 25px;
+   text-decoration: none;
+   color: black;
+}
+.contact h4{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.contact a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+   margin-left: px;
+   text-decoration: none;
+   color: black;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.copyright span{
+    margin-top: 20px;
+   
+}
