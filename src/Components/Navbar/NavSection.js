@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
-import { useLocation } from 'react-router-dom'; // Import useLocation
+import { NavLink, useLocation } from 'react-router-dom'; // Import NavLink
 import Logo from '../../Assets/Logo.png';
 import './NavSection.css';
 
@@ -18,28 +18,17 @@ function NavSection() {
 
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="nav-options me-auto">
-            <Nav.Link
-              href="/bookmyhealth.com"
-              className={location.pathname === '/bookmyhealth.com' ? 'active' : ''}
-            >
+            {/* Use NavLink instead of href */}
+            <Nav.Link as={NavLink} to="/" activeClassName="active" exact>
               HOME
             </Nav.Link>
-            <Nav.Link
-              href="/bookmyhealth.com/docters"
-              className={location.pathname === '/bookmyhealth.com/docters' ? 'active' : ''}
-            >
+            <Nav.Link as={NavLink} to="/docters" activeClassName="active">
               DOCTERS
             </Nav.Link>
-            <Nav.Link
-              href="/bookmyhealth.com/about"
-              className={location.pathname === '/bookmyhealth.com/about' ? 'active' : ''}
-            >
+            <Nav.Link as={NavLink} to="/about" activeClassName="active">
               ABOUT
             </Nav.Link>
-            <Nav.Link
-              href="/bookmyhealth.com/contact"
-              className={location.pathname === '/bookmyhealth.com/contact' ? 'active' : ''}
-            >
+            <Nav.Link as={NavLink} to="/contact" activeClassName="active">
               CONTACT
             </Nav.Link>
           </Nav>
