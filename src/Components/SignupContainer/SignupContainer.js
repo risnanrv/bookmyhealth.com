@@ -15,7 +15,7 @@ With 100+ Trusted  Doctors</h3>
   
           </Col>
           <Col md={6} xs={12} className="image">
-              <img src={assets.appointment_img} alt="" className='d-none d-md-flex container-image'/>
+              <img src={assets.appointment_img} alt="" className='d-none d-md-flex show-image'/>
               
           </Col>
           </div>

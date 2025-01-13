@@ -1,7 +1,7 @@
-.container-image{
+.show-image{
     width: 75%; /* Make the image responsive */
-    height: auto; /* Maintain aspect ratio */
-    margin-top: -37px;
+    height: 470px;
+    margin-top: 6px;
    /* margin-top: 34px;
     margin-bottom: -20px;*/
     margin-left: 30px;
