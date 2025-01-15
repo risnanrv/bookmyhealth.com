@@ -4,8 +4,14 @@ import { Col, Container, Row, Card } from 'react-bootstrap';
 import { FaCircle } from "react-icons/fa";
 import { IoMdArrowDropright } from "react-icons/io";
 import { doctors } from '../../assets_frontend/assets.js';
-
-function TopDocters() {
+import { useNavigate } from 'react-router-dom';
+function TopDocters({doctor}) {
+     const navigate = useNavigate();
+    
+     const handleCardClick = (doctor) => {
+        navigate('/appoinment', { state: { doctor } });
+      };
+       
     // Limit the doctors array to the first 8 entries
     const topDoctors = doctors.slice(0, 8);
 
@@ -19,7 +25,7 @@ function TopDocters() {
                 {
                     topDoctors.map((doctor) => (
                         <Col md={3} sm={12} xs={12} key={doctor._id}>
-                            <Card className="doctor-card" style={{ width: "250px", height: "350px", marginTop: "20px" }}>
+                            <Card className="doctor-card" style={{ width: "250px", height: "350px", marginTop: "20px" }}   onClick={() => handleCardClick(doctor)}>
                                 <div className="image-container" style={{ background: "rgb(234 239 255)" }}>
                                     <Card.Img variant="top" src={doctor.image} style={{ width: "267px", height: "250px", marginLeft: "-10px" }} />
                                 </div>

@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Navbar, Nav } from 'react-bootstrap';
+import { Container, Navbar, Nav, } from 'react-bootstrap';
 import { NavLink, useLocation } from 'react-router-dom'; // Import NavLink
+import { Link } from 'react-router-dom';
 import Logo from '../../Assets/Logo.png';
 import './NavSection.css';
 
@@ -33,7 +34,9 @@ function NavSection() {
             </Nav.Link>
           </Nav>
           <Nav className="d-none d-md-flex nav-options signup-button">
-            <button className="signup-button">SignUp</button>
+          <Link to="" className="signup-button">
+              Signup
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

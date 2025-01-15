@@ -1,0 +1,46 @@
+.booking-slots {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .dates,
+  .time-slots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .date,
+  .time {
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 10px 15px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .date.selected,
+  .time.selected {
+    background-color: #6c5ce7; /* Change this to your primary color */
+    color: white;
+    border-color: #6c5ce7;
+  }
+  
+  .book-appointment {
+    background-color: #6c5ce7; /* Change this to your primary color */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .book-appointment:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  

@@ -1,0 +1,45 @@
+.docter-image-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 300px;
+   background: #0d9606;
+   margin-top: 50px;
+   border-radius: 10px;
+  
+}
+.docter-image{
+    height: 320px;
+}
+.docter-details-container{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+@media screen and (min-width:992px){
+    .docter-details-container{
+        height: 320px;
+        width: 800px;
+        margin-top: 50px;
+        margin-left: -70px;
+        padding: 15px;
+    }
+}
+@media screen and (max-width:600px){
+    .docter-image-container{
+        margin-left: 40px;
+    }
+    .docter-details-container{
+        height: 430px;
+        width:95%;
+        margin-top: 30px;
+       margin-left: 5px;
+        padding: 15px;
+    }
+}
+.exp-button{
+    margin-left: 10px;
+    height: 24px;
+    font-size: 12px;
+    border-radius: 37px;
+    width: 60px;
+}

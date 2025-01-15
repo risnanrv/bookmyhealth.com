@@ -8,7 +8,7 @@ function ContactSession() {
     <h3 className='contactus-heading'>CONTACT US</h3>
     <Row>
     <Col md={6} sm={12} className='contact-image'>
-           <img src={ContactImage} alt='About-Image'></img>
+           <img src={ContactImage} alt='contact-Image'></img>
         </Col >
         <Col  md={6} sm={12} className='contact-text' style={{marginTop:"70px"}}>
        
