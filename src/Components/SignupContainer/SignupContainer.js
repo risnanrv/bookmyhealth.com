@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Col} from 'react-bootstrap';
 import './SignupContainer.css'
 import {assets} from '../../assets_frontend/assets'
+import { Link } from 'react-router-dom';
 function SignupContainer() {
   return (
    <Container className='signup-header' style={{marginTop:"50px"}}>
@@ -11,7 +12,9 @@ function SignupContainer() {
          <h3>Book Appointment 
 
 With 100+ Trusted  Doctors</h3>
-          <button className='appoinment-button-2'>SignUp </button>
+<Link to="/signup">
+      <button className='appoinment-button-2'>SignUp</button>
+    </Link>
   
           </Col>
           <Col md={6} xs={12} className="image">

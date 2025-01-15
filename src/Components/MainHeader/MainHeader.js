@@ -4,6 +4,12 @@ import { Container, Col} from 'react-bootstrap';
 import HeaderImage from '../../Assets/header_img.png'
 import { FaLongArrowAltRight } from "react-icons/fa";
 function MainHeader() {
+  const scrollToDoctors = () => {
+    const element = document.querySelector('.main-docters');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <Container className='header'>
         
@@ -13,7 +19,7 @@ function MainHeader() {
             Connect With Expert <br></br> Healthcare Professionals
         </h3>
         <p>Browse a curated selection of expert healthcare professionals and book appointments easily, tailored to your needs.</p>
-        <button className='appoinment-button'>Book Now <FaLongArrowAltRight /></button>
+        <button  onClick={scrollToDoctors} className='appoinment-button'>Book Now <FaLongArrowAltRight /></button>
 
         </Col>
         <Col md={6} xs={12} className="image">

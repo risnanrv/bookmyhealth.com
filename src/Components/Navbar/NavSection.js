@@ -34,7 +34,7 @@ function NavSection() {
             </Nav.Link>
           </Nav>
           <Nav className="d-none d-md-flex nav-options signup-button">
-          <Link to="" className="signup-button">
+          <Link to="/signup" className="signup-button">
               Signup
             </Link>
           </Nav>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './AppoinmentPage.css';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useLocation } from 'react-router-dom';
@@ -8,6 +8,10 @@ function AppoinmentPage() {
   
   // Get the doctors data from location.state or fallback to an empty array
   const doctor = location.state?.doctor || null;
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page on mount
+  }, []);
 
   if (!doctor) {
     return (
