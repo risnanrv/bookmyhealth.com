@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./BookingSlots.css"; // Add your styles here
+import "./BookingSlots.css";
 import { Container } from "react-bootstrap";
 
 const BookingSlots = () => {
@@ -25,12 +25,11 @@ const BookingSlots = () => {
     "12:30 pm",
   ];
 
-  // Detect small devices
   useEffect(() => {
     const handleResize = () => {
       setIsSmallDevice(window.innerWidth < 768);
     };
-    handleResize(); // Initial check
+    handleResize();
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -38,7 +37,6 @@ const BookingSlots = () => {
   return (
     <Container>
       {isSmallDevice ? (
-        /* Part 2: Dropdown form for small devices */
         <div className="container my-5">
           <h2 className="text-center mb-4">Booking Slots</h2>
 
@@ -95,10 +93,9 @@ const BookingSlots = () => {
           </div>
         </div>
       ) : (
-        /* Part 1: Button-based layout for larger devices */
+       
         <div className="booking-slots">
           <h4 style={{ marginTop: "50px" }}>Booking Slots</h4>
-          {/* Dates */}
           <div className="dates">
             {dates.map(({ day, date }) => (
               <button
@@ -111,7 +108,6 @@ const BookingSlots = () => {
               </button>
             ))}
           </div>
-          {/* Time Slots */}
           <div className="time-slots">
             {timeSlots.map((time) => (
               <button
@@ -123,7 +119,6 @@ const BookingSlots = () => {
               </button>
             ))}
           </div>
-          {/* Submit Button */}
           <button
             className="book-appointment"
             disabled={!selectedDate || !selectedTime}

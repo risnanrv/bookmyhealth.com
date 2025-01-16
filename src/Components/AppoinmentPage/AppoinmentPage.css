@@ -24,7 +24,7 @@
         padding: 15px;
     }
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
     .docter-image-container{
         margin-left: 40px;
     }

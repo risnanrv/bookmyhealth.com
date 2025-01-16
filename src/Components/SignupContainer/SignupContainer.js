@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Col} from 'react-bootstrap';
 import './SignupContainer.css'
-import {assets} from '../../assets_frontend/assets'
+import {assets} from '../../Assets/assets'
 import { Link } from 'react-router-dom';
 function SignupContainer() {
   return (

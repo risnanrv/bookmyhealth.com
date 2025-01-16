@@ -42,7 +42,7 @@
     margin-top: 20px;
    
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
     .footer-left p{
         width: 100%;
 

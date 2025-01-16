@@ -1,7 +1,7 @@
 import React from 'react'
 import './ContactSession.css'
 import { Container, Row , Col} from 'react-bootstrap'
-import ContactImage from '../../assets_frontend/contact_image.png'
+import ContactImage from '../../Assets/contact_image.png'
 function ContactSession() {
   return (
    <Container>

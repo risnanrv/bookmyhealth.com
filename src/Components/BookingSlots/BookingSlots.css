@@ -23,13 +23,13 @@
   
   .date.selected,
   .time.selected {
-    background-color: #6c5ce7; /* Change this to your primary color */
+    background-color: #6c5ce7; 
     color: white;
     border-color: #6c5ce7;
   }
   
   .book-appointment {
-    background-color: #6c5ce7; /* Change this to your primary color */
+    background-color: #6c5ce7;
     color: white;
     border: none;
     border-radius: 20px;

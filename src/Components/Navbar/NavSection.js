@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Navbar, Nav, } from 'react-bootstrap';
-import { NavLink, useLocation } from 'react-router-dom'; // Import NavLink
+import { NavLink, useLocation } from 'react-router-dom'; 
 import { Link } from 'react-router-dom';
 import Logo from '../../Assets/Logo.png';
 import './NavSection.css';
 
 function NavSection() {
-  const location = useLocation(); // Get the current path
+  const location = useLocation(); 
 
   return (
     <Navbar expand="md">
@@ -19,7 +19,6 @@ function NavSection() {
 
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="nav-options me-auto">
-            {/* Use NavLink instead of href */}
             <Nav.Link as={NavLink} to="/" activeClassName="active" exact>
               HOME
             </Nav.Link>

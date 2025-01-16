@@ -6,11 +6,10 @@ import { useLocation } from 'react-router-dom';
 function AppoinmentPage() {
   const location = useLocation();
   
-  // Get the doctors data from location.state or fallback to an empty array
   const doctor = location.state?.doctor || null;
 
   useEffect(() => {
-    window.scrollTo(0, 0); // Scrolls to the top of the page on mount
+    window.scrollTo(0, 0);
   }, []);
 
   if (!doctor) {

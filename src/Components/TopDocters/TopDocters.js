@@ -3,7 +3,7 @@ import './TopDocters.css';
 import { Col, Container, Row, Card } from 'react-bootstrap';
 import { FaCircle } from "react-icons/fa";
 import { IoMdArrowDropright } from "react-icons/io";
-import { doctors } from '../../assets_frontend/assets.js';
+import { doctors } from '../../Assets/assets.js';
 import { useNavigate } from 'react-router-dom';
 function TopDocters({doctor}) {
      const navigate = useNavigate();
@@ -11,8 +11,11 @@ function TopDocters({doctor}) {
      const handleCardClick = (doctor) => {
         navigate('/appoinment', { state: { doctor } });
       };
+      const scrollToAllDoctors = () => {
+        navigate('/docters', { state: { scrollTo: '.all-doc' } });
+      };
+      
        
-    // Limit the doctors array to the first 8 entries
     const topDoctors = doctors.slice(0, 8);
 
     return (
@@ -46,7 +49,7 @@ function TopDocters({doctor}) {
                 }
             </Row>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                <button className='more-button'>More <IoMdArrowDropright /></button>
+                <button  onClick={scrollToAllDoctors} className='more-button'>More <IoMdArrowDropright /></button>
             </div>
         </Container>
     );

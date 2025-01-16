@@ -1,7 +1,7 @@
 import React from 'react'
 import './AboutSection.css'
 import { Col, Container, Row } from 'react-bootstrap'
-import AboutImage from '../../assets_frontend/about_image.png'
+import AboutImage from '../../Assets/about_image.png'
 function AboutSection() {
   return (
    <Container>

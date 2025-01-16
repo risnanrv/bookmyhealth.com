@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import { Container , Row, Col, Card} from 'react-bootstrap'
-import { doctors } from '../../assets_frontend/assets.js';
+import { doctors } from '../../Assets/assets.js';
 import { FaCircle } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 function AllDocters({ doctor }) {
@@ -9,10 +10,19 @@ function AllDocters({ doctor }) {
     const handleCardClick = (doctor) => {
         navigate('/appoinment', { state: { doctor } });
       };
-      
+      const location = useLocation();
+
+  useEffect(() => {
+    if (location.state?.scrollTo) {
+      const element = document.querySelector(location.state.scrollTo);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
 
   return (
-  <Container>
+  <Container className='all-doc'>
   <Row>
       {
           doctors.map((doctor) => (
