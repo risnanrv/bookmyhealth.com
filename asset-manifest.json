@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bookmyhealth.com/static/css/main.e5591860.css",
-    "main.js": "/bookmyhealth.com/static/js/main.79aec9b0.js",
+    "main.css": "/bookmyhealth.com/static/css/main.014d6eb0.css",
+    "main.js": "/bookmyhealth.com/static/js/main.5c0daf51.js",
     "static/js/156.5663c88b.chunk.js": "/bookmyhealth.com/static/js/156.5663c88b.chunk.js",
     "static/media/contact_image.png": "/bookmyhealth.com/static/media/contact_image.20b30fe24d6647e07d16.png",
     "static/media/header_img.png": "/bookmyhealth.com/static/media/header_img.70253f4e7d8c989e6e15.png",
@@ -22,29 +22,14 @@
     "static/media/doc14.png": "/bookmyhealth.com/static/media/doc14.d79887ac3d9280f39558.png",
     "static/media/doc1.png": "/bookmyhealth.com/static/media/doc1.f0f093227eba464db1a1.png",
     "static/media/doc10.png": "/bookmyhealth.com/static/media/doc10.b1ebd9940e5b7ff32b48.png",
-    "static/media/profile_pic.png": "/bookmyhealth.com/static/media/profile_pic.5ae02097a4055995fabb.png",
     "static/media/Logo.png": "/bookmyhealth.com/static/media/Logo.e442553c58a598685ab0.png",
-    "static/media/group_profiles.png": "/bookmyhealth.com/static/media/group_profiles.72337136b27b09216a23.png",
-    "static/media/Neurologist.svg": "/bookmyhealth.com/static/media/Neurologist.2a6cf19c676687d7c64fe99b2eb4652c.svg",
-    "static/media/Pediatricians.svg": "/bookmyhealth.com/static/media/Pediatricians.77d831fbba3f98bd74a1054d90bf308e.svg",
-    "static/media/logo.svg": "/bookmyhealth.com/static/media/logo.3fe6284334a7dc365a6a0eea3e44f25c.svg",
-    "static/media/Gynecologist.svg": "/bookmyhealth.com/static/media/Gynecologist.7a09bf4b68eec87cd218cff1ef9a3788.svg",
-    "static/media/Gastroenterologist.svg": "/bookmyhealth.com/static/media/Gastroenterologist.dc56dd1c037ec5e035acde49c66c7725.svg",
-    "static/media/General_physician.svg": "/bookmyhealth.com/static/media/General_physician.9de6cf60c760641ea020344fc27e7ec1.svg",
-    "static/media/Dermatologist.svg": "/bookmyhealth.com/static/media/Dermatologist.5325511692770af096936955001c7f01.svg",
-    "static/media/verified_icon.svg": "/bookmyhealth.com/static/media/verified_icon.9797cb02d5639ccc4797215b0f52fe8e.svg",
-    "static/media/dropdown_icon.svg": "/bookmyhealth.com/static/media/dropdown_icon.114f3fc15e7da7668de93c7b8036a3c3.svg",
     "index.html": "/bookmyhealth.com/index.html",
-    "static/media/chats_icon.svg": "/bookmyhealth.com/static/media/chats_icon.2a87be6788dc263f512582fce8ad3449.svg",
-    "static/media/info_icon.svg": "/bookmyhealth.com/static/media/info_icon.eb8122f5420b89f424e0e8c23daf7ef3.svg",
-    "static/media/menu_icon.svg": "/bookmyhealth.com/static/media/menu_icon.4db62edd8feddf138b9bddaf0b8d8034.svg",
-    "static/media/arrow_icon.svg": "/bookmyhealth.com/static/media/arrow_icon.88b22fbca7642e4ce626e574f9c09e60.svg",
-    "main.e5591860.css.map": "/bookmyhealth.com/static/css/main.e5591860.css.map",
-    "main.79aec9b0.js.map": "/bookmyhealth.com/static/js/main.79aec9b0.js.map",
+    "main.014d6eb0.css.map": "/bookmyhealth.com/static/css/main.014d6eb0.css.map",
+    "main.5c0daf51.js.map": "/bookmyhealth.com/static/js/main.5c0daf51.js.map",
     "156.5663c88b.chunk.js.map": "/bookmyhealth.com/static/js/156.5663c88b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5591860.css",
-    "static/js/main.79aec9b0.js"
+    "static/css/main.014d6eb0.css",
+    "static/js/main.5c0daf51.js"
   ]
 }
